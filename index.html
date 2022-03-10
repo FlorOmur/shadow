@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/media.css">
+</head>
+<body>
+<section class="box-shadow">
+    <p class="title">Генератор тени</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-6 ranges__out-box">
+                <div class="ranges">
+                    <label for="left-right">Левый и правый</label>
+                    <input type="range" class="left-right input" id="left-right" value="0" max="100" min="-100">
+                    <label for="up-down">Верх и вниз</label>
+                    <input type="range" class="up-down input" id="up-down" value="0" max="100" min="-100">
+                    <label for="transparency">Размытость</label>
+                    <input type="range" class="transparency input" id="transparency" value="0" max="100">
+                    <label for="size">Размер</label>
+                    <input type="range" class="size input" id="size" value="0" max="100">
+                    <label for="opasity">Прозрачность</label>
+                    <input type="range" class="opasity input" id="opasity" value="0" max="1" step="0.01">
+                    <label for="color">Цвет тени</label>
+                    <input type="color" class="color" id="color" value="#bebebe">
+                    <div class="generator"></div>
+                    <div class="checkbox">
+                        <label for="inset">Внутренний тень</label>
+                        <input type="radio" class="inset" id="inset" name="switch">
+                        <label for="outset">Наружный тень</label>
+                        <input type="radio" class="outset" id="outset" name="switch" checked>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="out-box">
+                    <div class="box"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="./js/script.js"></script>
+</body>
+</html>

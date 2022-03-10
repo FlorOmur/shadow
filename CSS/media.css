@@ -1,0 +1,47 @@
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+    .box-shadow {
+        margin-top: 34px;
+    }
+
+    .container {
+        max-width: 540px;
+    }
+
+    .col-6 {
+        width: 100%;
+    }
+
+    .out-box {
+        margin-bottom: 34px;
+    }
+
+    .title {
+        margin-bottom: 16px;
+    }
+
+    .ranges input {
+        margin-bottom: 17px;
+    }
+}
+
+@media (max-width: 576px) {
+    .ranges{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ranges input {
+        width: 80%;
+    }
+    .ranges .color{
+        max-width: 80%;
+    }
+}
