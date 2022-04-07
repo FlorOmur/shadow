@@ -8,7 +8,6 @@ const shadowOpasity = document.querySelector('.opasity')
 const generator = document.querySelector('.generator')
 const inset = document.querySelector('.inset')
 
-
 shadowLeftRigth.addEventListener('input', shadowGenerator)
 shadowUpDown.addEventListener('input', shadowGenerator)
 shadowTransparency.addEventListener('input', shadowGenerator)
